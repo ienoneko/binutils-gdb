@@ -5634,6 +5634,15 @@ get_osabi_name (Filedata * filedata, unsigned int osabi)
 	      }
 	    break;
 
+	  case EM_386:
+	    switch (osabi)
+	      {
+	      case ELFOSABI_SNOW:	return "UNIX - SNOW";
+	      default:
+		break;
+	      }
+	    break;
+
 	  default:
 	    break;
 	  }

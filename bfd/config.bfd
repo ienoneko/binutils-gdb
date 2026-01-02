@@ -661,6 +661,9 @@ case "${targ}" in
     targ_selvecs="iamcu_elf32_vec i386_pei_vec"
     targ64_selvecs="x86_64_elf64_vec x86_64_elf32_vec x86_64_pe_vec x86_64_pei_vec"
     ;;
+  i[3-7]86-*-snow*)
+    targ_defvec=i386_elf32_snow_vec
+    ;;
   i[3-7]86-*-redox*)
     targ_defvec=i386_elf32_vec
     targ_selvecs=

@@ -4649,6 +4649,24 @@ elf_i386_fbsd_init_file_header (bfd *abfd, struct bfd_link_info *info)
 
 #undef elf_backend_init_file_header
 
+/* SNOW support.  */
+
+#undef	TARGET_LITTLE_SYM
+#define	TARGET_LITTLE_SYM		i386_elf32_snow_vec
+#undef	TARGET_LITTLE_NAME
+#define	TARGET_LITTLE_NAME		"elf32-i386-snow"
+
+#undef	ELF_OSABI
+#define	ELF_OSABI			ELFOSABI_SNOW
+
+#undef	ELF_MAXPAGESIZE
+#define	ELF_MAXPAGESIZE			0x10000
+
+#undef	elf32_bed
+#define	elf32_bed			elf32_i386_snow_bed
+
+#include "elf32-target.h"
+
 /* Solaris 2.  */
 
 #undef	TARGET_LITTLE_SYM

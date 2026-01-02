@@ -360,6 +360,8 @@ i[3-7]86-*-linux-*)	targ_emul=elf_i386
 			targ_extra_emuls="elf_iamcu"
 			targ64_extra_libpath="elf_x86_64 elf32_x86_64"
 			;;
+i[3-7]86-*-snow*)	targ_emul=elf_i386_snow
+			;;
 i[3-7]86-*-redox*)	targ_emul=elf_i386
 			targ_extra_emuls=elf_x86_64
 			;;

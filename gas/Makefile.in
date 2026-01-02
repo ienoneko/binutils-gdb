@@ -851,6 +851,7 @@ TARG_ENV_HFILES = \
 	config/te-nbsd532.h \
 	config/te-pc532mach.h \
 	config/te-pe.h \
+	config/te-snow.h \
 	config/te-solaris.h \
 	config/te-tmips.h \
 	config/te-vxworks.h \

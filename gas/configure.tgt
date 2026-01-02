@@ -262,6 +262,7 @@ case ${generic_target} in
       x86_64*)				fmt=coff em=pep ;;
       i*)				fmt=coff em=pe ;;
     esac ;;
+  i386-*-snow*) 			fmt=elf em=snow ;;
   i386-*-nto-qnx*)			fmt=elf ;;
   i386-*-*nt*)				fmt=coff em=pe ;;
   i386-*-rdos*)				fmt=elf ;;

@@ -833,6 +833,7 @@ osabis[] =
   { ELFOSABI_GNU, "GNU" },
   { ELFOSABI_GNU, "Linux" },
   { ELFOSABI_SOLARIS, "Solaris" },
+  { ELFOSABI_SNOW, "SNOW" },
   { ELFOSABI_AIX, "AIX" },
   { ELFOSABI_IRIX, "Irix" },
   { ELFOSABI_FREEBSD, "FreeBSD" },

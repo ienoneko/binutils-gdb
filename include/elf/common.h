@@ -84,6 +84,7 @@
 #define ELFOSABI_ARM_FDPIC     65 /* ARM FDPIC */
 #define ELFOSABI_AMDGPU_MESA3D 66 /* AMD Mesa3D Runtime */
 #define ELFOSABI_ARM	       97 /* ARM */
+#define ELFOSABI_SNOW	      222 /* SNOW */
 #define ELFOSABI_STANDALONE   255 /* Standalone (embedded) application */
 
 #define EI_ABIVERSION	8	/* ABI version */
